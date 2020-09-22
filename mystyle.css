@@ -1,0 +1,54 @@
+
+body{
+  display: flex;
+  justify-content: center;
+  background: pink;
+}
+
+#container{
+position: relative;
+top: 100px;
+width: 500px;
+}
+
+#content-box1{
+  background: url("Untitled_Artwork.png");
+  padding: 15px;
+  margin-bottom: 15px;
+}
+#content-box2{
+  background: url("TheDailyBoard__Zoom_2.png");
+  padding: 15px;
+  margin-bottom: 15px;
+}#content-box3{
+  background: url("Mockup_2.png");
+  padding: 15px;
+  margin-bottom: 15px;
+}#content-box4{
+  background: url("Mockup_3.png");
+  padding: 15px;
+  margin-bottom: 15px;
+}#content-box5{
+  background: url("Mockup.png");
+  padding: 15px;
+  margin-bottom: 15px;
+}
+ul{
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  justify-content: left;
+  position: relative;
+  margin-bottom: 16px;
+}
+
+a {
+  text-decoration: none;
+  background: #FFFF;
+  padding: 15px;
+}
+
+
+a:hover{
+  background: #fff693;
+}
